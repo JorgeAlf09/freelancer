@@ -36,3 +36,27 @@ h1#titcab{
     top: 20px;
     left: 107px;
 }
+
+h3#opc1{
+    font-family: 'Tahoma';
+    color: white;
+    position: relative;
+    top: -11px;
+    left: 900px;
+}
+
+h3#opc2{
+    font-family: 'Tahoma';
+    color: white;
+    position: relative;
+    top: -34px;
+    left: 1040px;
+}
+
+h3#opc3{
+    font-family: 'Tahoma';
+    color: white;
+    position: relative;
+    top: -57px;
+    left: 1135px;
+}
