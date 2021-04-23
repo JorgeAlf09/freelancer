@@ -28,3 +28,11 @@ div#divis4{
     height: 300px;
     background-color: #212529;
 }
+
+h1#titcab{
+    font-family: 'Tahoma';
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 107px;
+}
