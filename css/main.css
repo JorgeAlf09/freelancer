@@ -134,3 +134,27 @@ img#c{
     top: 180px;
     left: -65px;
 }
+
+img#d{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    top: 205px;
+    left: 158px;
+}
+
+img#e{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    top: 205px;
+    left: 184px;
+}
+
+img#f{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    top: 205px;
+    left: 210px;
+}
