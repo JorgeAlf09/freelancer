@@ -102,3 +102,11 @@ h1#titmed{
     left: 557px;
     font-size: 50px;
 }
+
+img#star2{
+    position: relative;
+    width: 270px;
+    height: 50px;
+    top: 120px;
+    left: 580px;
+}
