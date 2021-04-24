@@ -194,3 +194,24 @@ p#parr2{
     left: 710px;
     font-size: 20px;
 }
+
+.divis3 button{
+    position: relative;
+    width: 230px;
+    height: 45px;
+    top: 20px;
+    left: 580px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #18bc9c;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.divis3 button:hover{
+    color: white;
+    background-color: #212529;
+}
