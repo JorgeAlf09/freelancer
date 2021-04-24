@@ -93,3 +93,12 @@ img#star{
     top: 180px;
     left: 620px;
 }
+
+h1#titmed{
+    font-family: 'Montserrat', sans-serif;
+    color: #212529;
+    position: relative;
+    top: 120px;
+    left: 557px;
+    font-size: 50px;
+}
