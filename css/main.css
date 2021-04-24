@@ -175,3 +175,22 @@ h1#titmed2{
     top: 80px;
     left: 552px;
 }
+
+.divis3 p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+p#parr1{
+    position: relative;
+    top: 80px;
+    left: 318px;
+    font-size: 20px;
+}
+
+p#parr2{
+    position: relative;
+    top: -63px;
+    left: 710px;
+    font-size: 20px;
+}
