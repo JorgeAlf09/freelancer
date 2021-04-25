@@ -306,7 +306,7 @@ input:focus~label{
     font-family: 'Montserrat', sans-serif;
     color: white;
     position: relative;
-    text-align: justify;
+    text-align: center;
     font-size: 25px;
 }
 
@@ -319,17 +319,17 @@ input:focus~label{
 
 h1#t1{
     top: 51px;
-    left: 230px;
+    right: 373px;
 }
 
 h1#t2{
     top: 21px;
-    left: 505px;
+    right: 45px;
 }
 
 h1#t3{
     top: -10px;
-    left: 850px;
+    left: 320px;
 }
 
 p#p1{
@@ -345,4 +345,30 @@ p#p2{
 p#p3{
     top: 80px;
     left: -45px;
+}
+
+.redes{
+    width: 300px;
+    height: 60px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 77px;
+    left: 479px;
+}
+
+.redes .fab{
+    margin: 0 4px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #212529;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    pointer-events: none;
 }
