@@ -7,6 +7,12 @@
     --colorTextos: #6a6d707a;
 }
 
+.contenedor{
+    padding-inline-start: 0%;
+    padding-inline-end: 0%;
+    padding: 0px 0px;
+}
+
 .divis1{
     width: 100%;
     height: 80px;
@@ -354,8 +360,8 @@ p#p3{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 77px;
+    position: absolute;
+    bottom: -1000px;
     left: 479px;
 }
 
