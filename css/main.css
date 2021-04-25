@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+:root{
+    --colorTextos: #6a6d70;
+}
+
 .divis1{
     width: 100%;
     height: 80px;
@@ -215,3 +219,80 @@ p#parr2{
     color: white;
     background-color: #212529;
 }
+
+h1#titcon{
+    font-family: 'Montserrat', sans-serif;
+    color: #212529;
+    position: relative;
+    top: 50px;
+    left: 560px;
+    font-size: 40px;
+}
+
+img#subcon{
+    width: 250px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 580px;
+}
+
+form .campos{
+    align-items: center;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    margin: 40px;
+}
+
+input{
+    background: none;
+    color: white;
+    font-size: 29px;
+    padding: 20px 20px 10px 15px;
+    display: block;
+    width: 650px;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus{
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    color: #212529;
+}
+
+label{
+    color: #5a5a5a73;
+    font-family: 'Lato', sans-serif;
+    font-size: 29px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    top: 20px;
+    transition: 0.4s ease-in-out all;
+    pointer-events: none;
+}
+
+input:focus~label{
+    top: -14px;
+    font-size: 18px;
+    color: #212529;
+}
+
+.form button{
+    position: relative;
+    width: 100px;
+    height: 70px;
+    top: 160px;
+    left: 240px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #18bc9c;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
