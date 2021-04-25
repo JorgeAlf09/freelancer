@@ -7,6 +7,8 @@
     --colorTextos: #6a6d707a;
 }
 
+/* PRIMER DIVISOR */
+
 .divis1{
     width: 100%;
     height: 80px;
@@ -42,24 +44,12 @@ h3#opc3{
     right: 170px;
 }
 
+/* SEGUNDO DIVISOR */
+
 .divis2{
     width: 100%;
     height: 620px;
     background-color: #18bc9c;
-}
-
-.divis3{
-    margin-top: 780px;
-    width: 100%;
-    height: 500px;
-    background-color: #18bc9c;
-}
-
-.divis4{
-    margin-top: 800px;
-    width: 100%;
-    height: 300px;
-    background-color: #212529;
 }
 
 .divis2 img{
@@ -92,6 +82,8 @@ img#star{
     top: 180px;
     left: 620px;
 }
+
+/* PRIMER ESPACIO EN BLANCO */
 
 h1#titmed{
     font-family: 'Montserrat', sans-serif;
@@ -157,6 +149,16 @@ img#f{
     left: 210px;
 }
 
+
+/* TERCER DIVISOR */
+
+.divis3{
+    margin-top: 780px;
+    width: 100%;
+    height: 500px;
+    background-color: #18bc9c;
+}
+
 h1#titmed2{
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -210,6 +212,8 @@ p#parr2{
     color: white;
     background-color: #212529;
 }
+
+/* SEGUNDO ESPACIO EN BLANCO */
 
 h1#titcon{
     font-family: 'Montserrat', sans-serif;
@@ -290,6 +294,15 @@ input:focus~label{
     background-color: #18bc9c;
     border: 2px solid;
     border-radius: 5px;
+}
+
+/* CUARTO DIVISOR */
+
+.divis4{
+    margin-top: 800px;
+    width: 100%;
+    height: 300px;
+    background-color: #212529;
 }
 
 .divis4 h1{
