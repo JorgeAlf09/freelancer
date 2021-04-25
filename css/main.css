@@ -302,3 +302,47 @@ input:focus~label{
     border-radius: 5px;
 }
 
+.divis4 h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.divis4 p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+h1#t1{
+    top: 51px;
+    left: 230px;
+}
+
+h1#t2{
+    top: 21px;
+    left: 505px;
+}
+
+h1#t3{
+    top: -10px;
+    left: 850px;
+}
+
+p#p1{
+    top: 28px;
+    left: -375px;
+}
+
+p#p2{
+    top: -10px;
+    left: 320px;
+}
+
+p#p3{
+    top: 80px;
+    left: -45px;
+}
