@@ -286,21 +286,6 @@ input:focus~label{
     width: 100%;
 }
 
-.barra:before{
-    content: "";
-    height: 2px;
-    width: 0%;
-    bottom: 0;
-    position: absolute;
-    color: #18bc9c;
-    transition: 0.3s ease width;
-    left: 0;
-}
-
-input:focus~.barra:before{
-    width: 100%;
-}
-
 .form button{
     position: relative;
     width: 100px;
