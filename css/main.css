@@ -4,7 +4,7 @@
 }
 
 :root{
-    --colorTextos: #6a6d70;
+    --colorTextos: #6a6d707a;
 }
 
 .divis1{
@@ -253,7 +253,7 @@ input{
     display: block;
     width: 650px;
     border: none;
-    border-bottom: 1px solid var(--colorTextos);
+    border-bottom: 3px solid var(--colorTextos);
 }
 
 input:focus{
@@ -278,6 +278,27 @@ input:focus~label{
     top: -14px;
     font-size: 18px;
     color: #212529;
+}
+
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.barra:before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    color: #18bc9c;
+    transition: 0.3s ease width;
+    left: 0;
+}
+
+input:focus~.barra:before{
+    width: 100%;
 }
 
 .form button{
