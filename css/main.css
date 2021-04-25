@@ -369,6 +369,24 @@ p#p3{
     border: 2px solid white;
     border-radius: 50%;
     color: white;
-    cursor: pointer;
-    pointer-events: none;
+}
+
+.redes .icon1:hover{
+    background-color: #3b5998;
+}
+
+.redes .icon2:hover{
+    background-color: #ee0800;
+}
+
+.redes .icon3:hover{
+    background-color: #00acee;
+}
+
+.redes .icon4:hover{
+    background-color: #2e3352;
+}
+
+.redes .icon5:hover{
+    background-color: #d80792;
 }
