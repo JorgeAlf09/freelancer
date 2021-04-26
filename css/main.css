@@ -90,53 +90,56 @@ img#star{
 h1#titmed{
     font-family: 'Montserrat', sans-serif;
     color: #212529;
-    top: 120px;
+    position: absolute;
+    top: 800px;
     left: 557px;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 img#star2{
+    width: 330px;
+    height: 60px;
     position: absolute;
-    top: 800px;
+    top: 867px;
     left: 580px;
 }
 
 .grup1 img{
-    width: 350px;
-    height: 250px;
+    width: 370px;
+    height: 200px;
     position: absolute;
-    top: 700px;
+    top: 930px;
 }
 
 .grup2 img{
-    width: 350px;
-    height: 250px;
+    width: 370px;
+    height: 200px;
     position: absolute;
-    top: 900px;
+    top: 1150px;
 }
 
 img#a{
-    left: -115px;
+    left: 140px;
 }
 
 img#b{
-    left: -90px;
+    left: 530px;
 }
 
 img#c{
-    left: -65px;
+    left: 920px;
 }
 
 img#d{
-    left: 158px;
+    left: 140px;
 }
 
 img#e{
-    left: 184px;
+    left: 530px;
 }
 
 img#f{
-    left: 210px;
+    left: 920px;
 }
 
 
@@ -217,7 +220,7 @@ img#subcon{
     width: 250px;
     height: 50px;
     position: absolute;
-    top: 900px;
+    top: 2100px;
     left: 580px;
 }
 
