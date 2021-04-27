@@ -292,22 +292,22 @@ input:valid~label{
 }
 
 form button{
-    position: absolute;
     width: 80px;
-    height: 60px;
+    height: 50px;
+    position: absolute;
     top: 2700px;
     left: 310px;
-    color: white;
     font-family: 'Lato', sans-serif;
+    color: white;
     font-size: 20px;
     text-decoration: none;
     justify-content: center;
-    background-color: #18bc9c;
     border: 2px solid;
     border-radius: 5px;
+    background-color: #18bc9c;
 }
 
-.form button:hover{
+form button:hover{
     color: white;
     background-color: #212529;
 }
