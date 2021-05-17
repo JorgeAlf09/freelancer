@@ -9,63 +9,77 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/438c9a9ae6.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/funcion.js"></script>
 
 </head>
 <body>
-        <header class="divis1">
-            <h1 id="titcab">START BOOTSTRAP</h1>
-            <a href="#portafolio"><h3 id="opc1">PORTFOLIO</h3></a>
-            <a href="#acerca_de"><h3 id="opc2">ABOUT</h3></a>
-            <a href="#contacta"><h3 id="opc3">CONTACT</h3></a>
-        </header>
+    <header>
+        <h1 id="titcab">START BOOTSTRAP</h1>
 
-        <div class="divis2">
-            <img src="assets\images/profile.png" >
+        <nav class="navegador">
+            <ul>
+                <li><a href="#portafolio">PORTFOLIO</a></li>
+                <li><a href="#acerca_de">ABOUT</a></li>
+                <li><a href="#contacta">CONTACT</a></li>          
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="divis1">
+            <img id="i1" src="assets\images/profile.png" >
             <h1 >START BOOTSTRAP</h1>
-            <h4 >Web Developer - Graphic Artist - User Experience Designer</h4>
             <img id="star" src="assets/images/portfolio/subrayado1.png">
+            <h4 >Web Developer - Graphic Artist - User Experience Designer</h4>
+        </div>
+        
+        <div class="portafolio">
+            <a id="portafolio"><h1 id="titmed">PORTFOLIO</h1></a>
+                <img id="star2" src="assets/images/portfolio/subrayado2.png">
+        
+                <div class="imágenes">
+                    <div class="grup1">
+                        <p><img id="a" src="assets/images/portfolio/cabin.png"></p>
+                        <p><img id="b" src="assets/images/portfolio/cake.png"></p>
+                        <p><img id="c" src="assets/images/portfolio/circus.png"></p>
+                    </div>
+                    <div class="grup2">
+                        <img id="d" src="assets/images/portfolio/game.png">
+                        <img id="e" src="assets/images/portfolio/safe.png">
+                        <img id="f" src="assets/images/portfolio/submarine.png">
+                    </div>
+                </div>
         </div>
 
-        <a id="portafolio"><h1 id="titmed">PORTFOLIO</h1></a>
-            <img id="star2" src="assets/images/portfolio/subrayado2.png">
-
-        <div class="esp1">
-            <div class="grup1">
-                <img id="a" src="assets/images/portfolio/cabin.png">
-                <img id="b" src="assets/images/portfolio/cake.png">
-                <img id="c" src="assets/images/portfolio/circus.png">
-            </div>
-            <div class="grup2">
-                <img id="d" src="assets/images/portfolio/game.png">
-                <img id="e" src="assets/images/portfolio/safe.png">
-                <img id="f" src="assets/images/portfolio/submarine.png">
-            </div>
-        </div>
-
-        <div class="divis3">
+        <div class="about">
             <a id="acerca_de"><h1>ABOUT</h1></a>
             <img src="assets/images/portfolio/subrayado1.png">
-            <p id="parr1">
-                Freelancer is a free bootstrap theme <br>
-                created by Start Bootstrap. The <br>
-                download includes the complete source <br>
-                files including HTML, CSS, and <br>
-                JavaScript as well as optional LESS <br>
-                stylesheet for easy customization.
-            </p>
+            
+            <div class="párrafos">
+                <p id="parr1">
+                    Freelancer is a free bootstrap theme <br>
+                    created by Start Bootstrap. The <br>
+                    download includes the complete source <br>
+                    files including HTML, CSS, and <br>
+                    JavaScript as well as optional LESS <br>
+                    stylesheet for easy customization.
+                </p>
 
-            <p id="parr2">Whethever you're a student looking to <br>
-                showcase your work, a professional <br>
-                looking to attract clients, or a graphic <br>
-                artist looking to share your projects, this <br>
-                template is the perfect starting point!</p>
-        
+                <p id="parr2">Whethever you're a student looking to <br>
+                    showcase your work, a professional <br>
+                    looking to attract clients, or a graphic <br>
+                    artist looking to share your projects, this <br>
+                    template is the perfect starting point!</p>
+            </div>            
+            
             <button type="button"><i class="fas fa-download"></i> Download Theme</button>
-        </div>
 
-        <div class="espa2">
+        </div>
+        
+        <div class="contact">
             <form action="" method="" id="form">
-                <a id="contacta"><h1 id="titcon">CONTACT ME</h1></a>
+                <a id="contacta"><h1>CONTACT ME</h1></a>
                 <img id="subcon" src="assets/images/portfolio/subrayado2.png">
 
                 <div class="formulario">
@@ -88,33 +102,35 @@
                     <label for="">Message</label>
                 </div>
 
-               <button type="button">Send</button>
+                <button type="button">Send</button>
             </form>
         </div>
+    </main>
 
-        <footer class="divis4">
-            <h1 id="t1">LOCATION</h1>
-            <h1 id="t2"> AROUND THE WEB</h1>
-            <h1 id="t3">ABOUT FREELANCER</h1>
-            <p id="p1">3481 Melrose Place <br>
-                Beverly Hills, CA 90210
-            </p>
-            <p id="p2"><span style="color: white">Freelance is a free to use, open source <br>
-                Bootstrap theme created by </span><span style="color: #18bc9c">Start <br> 
-                Bootstrap</span><span style="color: white;">.</span>
-            </p>
+    <footer>
+        <div class="footer">
+                <h1 id="t1">LOCATION</h1>
+                <h1 id="t2">AROUND THE WEB</h1>
+                <h1 id="t3">ABOUT FREELANCER</h1>
 
-            <div class="redes">
-                <i class="fab fa-facebook-f icon1"></i>
-                <i class="fab fa-google-plus-g icon2"></i>
-                <i class="fab fa-twitter icon3"></i>
-                <i class="fab fa-linkedin-in icon4"></i>
-                <i class="fab fa-dribbble icon5"></i>
-            </div>
+                <p id="p1">3481 Melrose Place <br>
+                    Beverly Hills, CA 90210
+                </p>
+                <p id="p2"><span style="color: white">Freelance is a free to use, open source <br>
+                    Bootstrap theme created by </span><span style="color: #18bc9c">Start <br> 
+                    Bootstrap</span><span style="color: white;">.</span>
+                </p>
 
-            <p id="p3">Copyright © Your Website 2017</p>
-
-        </footer>
+                <div class="redes">
+                    <i class="fab fa-facebook-f icon1"></i>
+                    <i class="fab fa-google-plus-g icon2"></i>
+                    <i class="fab fa-twitter icon3"></i>
+                    <i class="fab fa-linkedin-in icon4"></i>
+                    <i class="fab fa-dribbble icon5"></i>
+                </div>
     
+                <p id="p3">Copyright © Your Website 2017</p>
+        </div>
+    </footer> 
 </body>
 </html>

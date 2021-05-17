@@ -7,12 +7,13 @@
     --colorTextos: #6a6d707a;
 }
 
-/* PRIMER DIVISOR */
+/* CABECERA */
 
-.divis1{
+header{
     width: 100%;
     height: 80px;
     background-color: #2c3e50;
+    position: fixed;
 }
 
 h1#titcab{
@@ -24,98 +25,119 @@ h1#titcab{
 
 }
 
-.divis1 h3{
+.navegador{
+    width: 450px;
+    padding-top: 20px;
+    float: right;
+}
+
+.navegador a{
     font-family: 'Montserrat', sans-serif;
-    color: white;
     font-size: 20px;
-    position: absolute;
-    top: 30px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-h3#opc1{
-    right: 410px;
+.navegador ul li {
+    display: inline-block;
 }
 
-h3#opc2{
-    right: 300px;
+.navegador ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
 }
 
-h3#opc3{
-    right: 170px;
-}
+/* PRIMER DIVISOR */
 
-/* SEGUNDO DIVISOR */
-
-.divis2{
+.divis1{
     width: 100%;
     height: 620px;
     background-color: #18bc9c;
 }
 
-.divis2 img{
-    position: absolute;
+.divis1 img{
     width: 300px;
     height: 300px;
-    top: 210px;
-    left: 625px;
+    display: block;
+    margin: auto;
 }
 
-.divis2 h1{
+img#i1{
+    padding-top: 110px;
+}
+
+.divis1 h1{
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 60px;
-    position: absolute;
-    top: 530px;
-    left: 450px;
-}
-
-.divis2 h4{
-    font-family: 'Lato', sans-serif;
-    color: white;
-    position: absolute;
-    top: 630px;
-    left: 550px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 img#star{
-    position: absolute;
     width: 220px;
     height: 40px;
-    top: 593px;
-    left: 660px;
+    padding-top: 1px;
+}
+
+.divis1 h4{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* PRIMER ESPACIO EN BLANCO */
 
-h1#titmed{
+.portafolio h1{
     font-family: 'Montserrat', sans-serif;
     color: #212529;
-    position: absolute;
-    top: 800px;
-    left: 557px;
     font-size: 60px;
+    text-align: center;
+    padding-top: 70px;
 }
 
 img#star2{
     width: 330px;
     height: 60px;
-    position: absolute;
-    top: 867px;
-    left: 580px;
+    display: block;
+    margin: auto;
 }
+
+.imágenes img{
+    width: 370px;
+    height: 200px;
+    display: inline-block;
+    margin: auto;
+}
+
+/*.grup1 img{
+    width: 370px;
+    height: 200px;
+}*/
+
+/*.grup2 img{
+    width: 370px;
+    height: 200px;
+    position: absolute;
+    top: 1150px;
+}*/
 
 .grup1 img{
     width: 370px;
     height: 200px;
     position: absolute;
-    top: 930px;
+    top: 890px;
 }
 
 .grup2 img{
     width: 370px;
     height: 200px;
     position: absolute;
-    top: 1150px;
+    top: 1110px;
 }
 
 img#a{
@@ -142,55 +164,53 @@ img#f{
     left: 920px;
 }
 
+/* SEGUNDO DIVISOR */
 
-/* TERCER DIVISOR */
-
-.divis3{
+.about{
     margin-top: 780px;
     width: 100%;
-    height: 500px;
+    height: 450px;
     background-color: #18bc9c;
 }
 
-.divis3 h1{
+.about h1{
     font-family: 'Montserrat', sans-serif;
     color: white;
-    position: absolute;
-    top: 1570px;
-    left: 620px;
     font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
 }
 
-.divis3 img{
-    position: absolute;
+.about img{
     width: 290px;
     height: 50px;
-    top: 1626px;
-    left: 570px;
+    display: block;
+    margin: auto;
 }
 
-.divis3 p{
+.about p{
     font-family: 'Lato', sans-serif;
     color: white;
-    position: absolute;
-    top: 1690px;
     font-size: 20px;
+    margin: auto;
+    width: 500px;
 }
 
-p#parr1{
-    left: 333px;
+p#parr1 {
+    padding-right: 300px;
+    padding-top: 40px;
 }
 
-p#parr2{
-    left: 725px;
+p#parr2 {
+    padding-left: 600px;
+    margin-top: -144px;
 }
 
-.divis3 button{
-    position: absolute;
+.about button{
     width: 230px;
     height: 45px;
-    top: 1860px;
-    left: 600px;
+    margin-top: 80px;
+    margin-left: 550px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -201,35 +221,33 @@ p#parr2{
     border-radius: 5px;
 }
 
-.divis3 button:hover{
+.about button:hover{
     color: white;
     background-color: #212529;
 }
 
 /* SEGUNDO ESPACIO EN BLANCO */
 
-.espa2{
+.contact{
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h1#titcon{
+form h1{
     font-family: 'Montserrat', sans-serif;
     color: #212529;
-    position: absolute;
-    top: 2078px;
-    left: 570px;
     font-size: 40px;
+    padding-top: 800px;
+    text-align: center;
 }
 
 img#subcon{
     width: 230px;
     height: 40px;
-    position: absolute;
-    top: 2120px;
-    left: 600px;
+    display: block;
+    margin: auto;
 }
 
 form{
@@ -246,7 +264,7 @@ form{
 form .formulario{
     position: relative;
     margin: 45px;
-    top: 400px;
+    top: 50px;
     right: 4px;
 }
 
@@ -285,8 +303,8 @@ input:valid~label{
     color: #212529;
 }
 
-.barra{
-    position: relative;
+.linea{
+    padding-left: 500px;
     display: block;
     width: 100%;
 }
@@ -294,9 +312,6 @@ input:valid~label{
 form button{
     width: 80px;
     height: 50px;
-    position: absolute;
-    top: 2700px;
-    left: 310px;
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 20px;
@@ -305,6 +320,8 @@ form button{
     border: 2px solid;
     border-radius: 5px;
     background-color: #18bc9c;
+    margin-top: 70px;
+    margin-left: 40px;
 }
 
 form button:hover{
@@ -314,26 +331,26 @@ form button:hover{
 
 /* CUARTO DIVISOR */
 
-.divis4{
+footer{
     margin-top: 800px;
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: #212529;
 }
 
-.divis4 h1{
+footer h1{
     font-family: 'Montserrat', sans-serif;
     color: white;
     position: absolute;
-    top: 2900px;
+    top: 2970px;
     font-size: 25px;
 }
 
-.divis4 p{
+footer p{
     font-family: 'Lato', sans-serif;
     color: white;
     position: absolute;
-    top: 2940px;
+    top: 3030px;
 }
 
 h1#t1{
@@ -362,7 +379,7 @@ p#p3{
     font-family: 'Lato', sans-serif;
     color: white;
     position: absolute;
-    top: 3110px;
+    top: 3270px;
     left: 560px;
 }
 
@@ -374,7 +391,7 @@ p#p3{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 2940px;
+    top: 3020px;
     left: 525px;
 }
 
